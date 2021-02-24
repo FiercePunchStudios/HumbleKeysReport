@@ -1,0 +1,9 @@
+﻿Id: HumbleKeysReport_91eafca4-97a0-4259-999e-0d6b9e7b2404
+Name: Humble Keys Report
+Author: https://github.com/FiercePunchStudios/
+Version: 0.8
+Module: HumbleKeysReport.ps1
+Type: Script
+Functions:
+    - Description: Humble Keys Report
+      FunctionName: ExportHumbleKeysReport
