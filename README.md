@@ -9,13 +9,15 @@ This will help in sorting your redeemed and unredeemed keys, so that you can giv
 
 ## Details
 ### Columns
-* `Source` - this column shows what platform the game belongs to. This report is only concerned with `Humble Keys`, so entries with other sources can be ignored.
+* `Source` - this column shows what platform the game is on. This report is only concerned with `Humble Keys`, so you can ignore entries from other sources.
 * `Is Redeemed?` - this column will display `Redeemed` or `Unredeemed`, corresponding to the tags filled out by HumbleKeysLibrary in the Playnite UI.
 * `Links` - this column contains all links stored in Playnite for this game, including the Humble Purchase URL. This should help you find and obtain unredeemed games from the Humble site more easily.
 
 ### Usage
+This report will **only** pick up the tags from our [HumbleKeysLibrary](https://github.com/FiercePunchStudios/HumbleKeysLibrary) extension. Please install that first and let it import your Humble Bundle data.
+
 You can use the reports in a variety of ways, but I recommend this sequence.
-1. Once installed, simply run the report by clicking the `Playnite logo in the top-left -> Extensions -> Humble Keys Report`. Output to text or CSV file.
+1. Once installed, run the report by clicking the `Playnite logo in the top-left -> Extensions -> Humble Keys Report`. Output or CSV file.
 2. Open your CSV file in spreadsheet software like LibreOffice.
 3. Add your own column to store the game keys that you will obtain in step 6.
 4. Sort the spreadsheet by the `Is Redeemed?` column and find the rows marked `Unredeemed`.
